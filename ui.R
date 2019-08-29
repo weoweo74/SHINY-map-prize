@@ -103,7 +103,7 @@ appCSS <- "
 "
 
 navbarPage(
-  "MaDD - Malaria Data by District",
+  "PMI - Malaria Initiative",
   tabPanel("Application",
            fluidPage(theme = shinytheme("flatly"),
                      useShinyalert(),
@@ -143,7 +143,7 @@ navbarPage(
                        sidebarPanel(
                          uiOutput("tab"),
                          br(),
-                         "More information can be found in the help tab.",
+                         "The PMI data lake supports open access malaria data availabilty initiative, an effort to provide relevant information for NMCP,Donors, Governmental and Non-governmental decision and policy makers.",
                          br(),
                          br(),
 
@@ -154,7 +154,7 @@ navbarPage(
                          
                          # hover-over tooltip
                          bsTooltip(id = "country",
-                                   title = "Please select the country of interest, available districts will update based on this selection.",
+                                   title = "Please select the country of interest, available sub-national will update based on this selection.",
                                    placement = "right", trigger = "hover", options = list(container = "body")),
                          
                          # choose raster layers
@@ -172,7 +172,7 @@ navbarPage(
                          
                          # hover-over tooltip
                          bsTooltip(id = "select_dist",
-                                   title = "Please select the districts to feature within the comparison/ranking.",
+                                   title = "Please select the sub-national to feature within the comparison/ranking.",
                                    placement = "right", trigger = "hover", options = list(container = "body")),
                          
                          # button to generate stats
@@ -191,7 +191,7 @@ navbarPage(
                        mainPanel(
                          
                          tabsetPanel(id='main0', type = "tabs",
-                                     #tabPanel(value ='tab1', title = "Selected country and districts", div(style = 'overflow-y:scroll;height:750px;',plotOutput("select_country", height = '750px', width = '750px'))),
+                                     #tabPanel(value ='tab1', title = "Selected country and sub-national", div(style = 'overflow-y:scroll;height:750px;',plotOutput("select_country", height = '750px', width = '750px'))),
                                      tabPanel(value ='tab1', title = "Map", div(style = 'overflow-y:scroll;height:750px;',leafletOutput("mapview_country_raster", height = '750px', width = '750px'))),
                                      #tabPanel(value ='tab1', title = "Map", leafletOutput("mapview_country_raster")),
                                      tabPanel(value ='tab3', title = "Table", DT::dataTableOutput("activetable")),
