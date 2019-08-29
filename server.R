@@ -145,11 +145,12 @@ function(input, output, session) {
   hide(id = "loading-content", anim = TRUE, animType = "fade")    
   show("app-content")
 
-  url <- a("MAP Homepage", href="https://map.ox.ac.uk/")
+  #url <- a("MAP Homepage", href="https://map.ox.ac.uk/")
   
   output$tab <- renderUI({
     
-    tagList("MaDD is a shiny app that allows easy interaction with summary statistics and plots for data provided by the Malaria Atlas Project:", url)
+    tagList("The PMI visualization allows easy interaction with Malaria summary statistics and 
+sub-national level. Dataset use was provided by the Malaria Atlas Project:", url)
   
     })
   
@@ -162,7 +163,7 @@ function(input, output, session) {
     # get names of districts in this country
     selected_dist <- get_dist_names(country_id)    
     
-    checkboxGroupInput("selected_dist", "Select first-level administrative division (min 2):",
+    checkboxGroupInput("selected_dist", "Select first-level sub-national level (min 2):",
                        choices = selected_dist,
                        selected = selected_dist,
                        inline = TRUE)
@@ -336,7 +337,7 @@ function(input, output, session) {
     # check for max four inputs   
     if(length(input$selected_dist) < 2){
       
-      shinyalert("Oops!", "Please select at least 2 districts to compare", type = "warning")
+      shinyalert("Oops!", "Please select at least 2 sub-national to compare", type = "warning")
 
     }    
     
