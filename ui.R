@@ -64,6 +64,11 @@ if(!require(leaflet)){
   library(leaflet)
 }
 
+if(!require(DT)){
+  install.packages("DT")
+  library(DT)
+}
+
 # generate a list of countries for which MAP data exists
 # fix some encoding and country issues
 load('data/sf_afr_simp_fao.rda')
