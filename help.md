@@ -4,8 +4,6 @@
 
 The application allows user interaction and creates interactive visualizations such as maps displaying mean values for each district selected by the user, and interactive tables ranking values. Users may select one country to analyse, all available districts within that country and up to four rasters for summary statistics generation and surface visualisation.
 
-Additionally, the application allows users to download a formatted **R Markdown** file for the generated statistics, providing easily digestible summaries of the data.
-
 ###  Structure
 
 The 'Application' page is comprised of four main sections:
