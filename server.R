@@ -145,12 +145,11 @@ function(input, output, session) {
   hide(id = "loading-content", anim = TRUE, animType = "fade")    
   show("app-content")
 
-  #url <- a("MAP Homepage", href="https://map.ox.ac.uk/")
+  url <- a("MAP Homepage", href="https://map.ox.ac.uk/")
   
   output$tab <- renderUI({
     
-    tagList("The PMI visualization allows easy interaction with Malaria summary statistics and 
-sub-national level. Dataset use was provided by the Malaria Atlas Project:", url)
+    tagList("The PMI visualization allows easy interaction with Malaria summary statistics and sub-national level. Dataset use was provided by the Malaria Atlas Project:", #url)
   
     })
   
