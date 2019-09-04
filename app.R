@@ -67,6 +67,11 @@ if(!require(leaflet)){
   library(leaflet)
 }
 
+if(!require(sf)){
+  install.packages("sf")
+  library(sf)
+}
+
 if(!require(DT)){
   install.packages("DT")
   library(DT)
