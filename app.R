@@ -230,7 +230,7 @@ if(!require(RColorBrewer)){
 }
 
 if(!require(malariaAtlas)){
-  devtools::install_github("malaria-atlas-project/malariaAtlas")
+  #devtools::install_github("malaria-atlas-project/malariaAtlas")
   #devtools:: install (https://github.com/malaria-atlas-project/malariaAtlas)
   #devtools:: install ("https://cran.r-project.org/web/packages/malariaAtlas")
   install.packages("malariaAtlas")
@@ -661,4 +661,4 @@ function(input, output, session) {
       contentType = "text/html")
 }
 #shinyApp(ui, server)
-shinyApp('ui.R', 'server.R')
+#shinyApp('ui.R', 'server.R')
