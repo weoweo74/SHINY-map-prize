@@ -658,5 +658,5 @@ function(input, output, session) {
         
       contentType = "text/html")
 }
-#shinyApp(ui, server)
-shinyApp('ui.R', 'server.R')
+shinyApp(ui, server)
+#shinyApp('ui.R', 'server.R')
