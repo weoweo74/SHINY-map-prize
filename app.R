@@ -1,11 +1,12 @@
 # create Shiny app
 ## app.R ##
 # install.packages("sp")
- install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source")
+ #install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source")
 # install.packages("raster")
 # install.packages("shiny")
 # install.packages("RColorBrewer")
  install.packages("malariaAtlas")
+install.packages("pacman")
 # install.packages("shinydashboard")
 # install.packages("stringr")
 # install.packages("shinyalert")
