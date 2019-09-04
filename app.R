@@ -231,7 +231,8 @@ if(!require(RColorBrewer)){
 
 if(!require(malariaAtlas)){
   #devtools::install_github("malaria-atlas-project/malariaAtlas")
-  devtools:: install (https://github.com/malaria-atlas-project/malariaAtlas)
+  #devtools:: install (https://github.com/malaria-atlas-project/malariaAtlas)
+  devtools:: install (https://cran.r-project.org/web/packages/malariaAtlas/index.html
   install.packages("malariaAtlas")
   library(malariaAtlas)
 }
