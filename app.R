@@ -1,4 +1,5 @@
 # create Shiny app
+shinyApp('ui.R', 'server.R')
 #################################################ui.R
 #### load required libraries ####
 if(!require(raster)){
@@ -229,8 +230,8 @@ if(!require(RColorBrewer)){
 }
 
 if(!require(malariaAtlas)){
-  devtools::install_github("malaria-atlas-project/malariaAtlas")
-  #devtools:: install (https://github.com/malaria-atlas-project/malariaAtlas)
+  #devtools::install_github("malaria-atlas-project/malariaAtlas")
+  devtools:: install (https://github.com/malaria-atlas-project/malariaAtlas)
   install.packages("malariaAtlas")
   library(malariaAtlas)
 }
