@@ -69,10 +69,6 @@ if(!require(DT)){
   library(DT)
 }
 
-options(download.file.method = 'wininet')
-install.packages('malariaAtlas', repos='mran.microsoft.com/snapshot/2019-04-26/src/contrib/PACKAGES', type=’source’)
-                 #https://mran.microsoft.com/snapshot/2019-04-26/src/contrib/PACKAGES'
-
 # generate a list of countries for which MAP data exists
 # fix some encoding and country issues
 load('data/sf_afr_simp_fao.rda')
