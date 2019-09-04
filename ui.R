@@ -14,11 +14,16 @@ if(!require(RColorBrewer)){
   library(RColorBrewer)
 }
 
+options(download.file.method = 'wininet')
+install.packages('malariaAtlas', repos='mran.microsoft.com/snapshot/2019-04-26', type=’source’
+                 #https://mran.microsoft.com/snapshot/2019-04-26/src/contrib/PACKAGES'
 if(!require(malariaAtlas)){
   install.packages("malariaAtlas")
   library(malariaAtlas)
 }
 
+
+                 
 if(!require(shinydashboard)){
   install.packages("shinydashboard")
   library(shinydashboard)
