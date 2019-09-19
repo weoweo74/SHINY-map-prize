@@ -111,7 +111,7 @@ appCSS <- "
 "
 
 navbarPage(
-  "PMI - Malaria Initiative",
+  "MDIV - Malaria ATLAS",
   tabPanel("Application",
            fluidPage(theme = shinytheme("flatly"),
                      useShinyalert(),
@@ -151,7 +151,7 @@ navbarPage(
                        sidebarPanel(
                          uiOutput("tab"),
                          br(),
-                         "The PMI data lake supports open access malaria data availabilty initiative, an effort to provide relevant information for NMCP,Donors, Governmental and Non-governmental decision and policy makers.",
+                         "The MDIV supports open access malaria data availabilty initiative. The advantage of this Malaria Atlas project it that; it evaluates temporal changes in Malaria diseases burden and utilized the effect of multiple interventions with temporal changes.** This visualization effort to provides relevant information for National Malaria Country Program, Donors, Governmental and Non-governmental decision and policy makers.",
                          br(),
                          br(),
 
@@ -372,7 +372,7 @@ function(input, output, session) {
   
   output$tab <- renderUI({
     
-    tagList("The PMI visualization allows easy interaction with Malaria summary statistics and sub-national level. Dataset use was provided by the Malaria Atlas Project:", url)
+    tagList("This visualization allows easy interaction with Malaria summary statistics and sub-national level. Dataset used was provided by the Malaria Atlas Project:", url)
   
     })
   
