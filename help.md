@@ -23,8 +23,11 @@ To download the report generated and displayed in the "Output Report" tab, users
 ### Definitions and Metrics
 -----------------------------------------
 - Malaria incidence (Falciparum): mean estimates  Modelled incidence of Plasmodium falciparum malaria cases per 1000 persons per annum.
+
 - Malaria in children (Falciparum): mean estimates of a modelled proportion of children aged 2-10 years with the Plasmodium falciparum  parasite. 
-- Insecticide Treated Net distribution**: mean estimates modelled percentage of the population sleeping under an ITN the night before.
+
+- Insecticide Treated Net distribution: mean estimates modelled percentage of the population sleeping under an ITN the night before.
+
 -Travel time to the nearest city:a  model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and elevation), and national borders.
 
  
