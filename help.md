@@ -29,7 +29,7 @@ To download the report generated and displayed in the "Output Report" tab, users
 - **Insecticide Treated Net distribution**: mean estimates modelled percentage of the population sleeping under an ITN the night
 before.
 
--**Travel time to the nearest city**: model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions and national borders.
+- **Travel time to the nearest city**: model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions and national borders.
 
  
 ### References
