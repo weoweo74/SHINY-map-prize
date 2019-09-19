@@ -150,7 +150,7 @@ function(input, output, session) {
   
   output$tab <- renderUI({
     
-    tagList("The PMI visualization allows easy interaction with Malaria summary statistics and sub-national level. Dataset use was provided by the Malaria Atlas Project:", url)
+    tagList("This visualization allows easy interaction with Malaria summary statistics and sub-national level. Dataset used was provided by the Malaria Atlas Project:", url)
   
     })
   
