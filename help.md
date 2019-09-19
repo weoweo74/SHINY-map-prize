@@ -22,18 +22,12 @@ To download the report generated and displayed in the "Output Report" tab, users
 
 ### Definitions and Metrics
 -----------------------------------------
+- Malaria incidence (Falciparum): mean estimates  Modelled incidence of Plasmodium falciparum malaria cases per 1000 persons per annum.
+- Malaria in children (Falciparum): mean estimates of a modelled proportion of children aged 2-10 years with the Plasmodium falciparum  parasite. 
+- Insecticide Treated Net distribution**: mean estimates modelled percentage of the population sleeping under an ITN the night before.
+-Travel time to the nearest city:a  model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and elevation), and national borders.
 
-**Malaria incidence (Falciparum)**: mean estimates  Modelled incidence of Plasmodium falciparum malaria cases per 1000 persons per annum.
-**Malaria in children (Falciparum)**: mean estimates of a modelled proportion of children aged 2-10 years  with the Plasmodium falciparum parasite. 
-**Insecticide Treated Net distribution**: mean estimates modelled percentage of the population sleeping under an ITN the night before.
-**Travel time to the nearest city**:a  model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and elevation), and national borders. Roads are the primary driver of accessibility globally. The roads dataset was created by merging Open Street Map (OSM) data with a distance-to-roads product derived from the Google roads database; these datasets were extracted in November 2016 and March 2016, respectively.
-
-**The advantage of the MAP modelis that**: 
-  (1). It evaluates temporal changes in Malaria diseases burden  
-  (2). Utilize the effect of all interventions on the population in combination with temporal changes.**
-
-
-
+ 
 ### References
 
 - Andras Sali (2017). shinycssloaders: Add CSS Loading Animations to 'shiny' Outputs. R package version 0.2.0. https://CRAN.R-project.org/package=shinycssloaders
