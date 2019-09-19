@@ -1,8 +1,8 @@
 ###  Purpose
 
-**This Presidential Malaria Initiative:PMI-visualization** is a **Shiny** web application that allows users to generate summary statistics and visualise surfaces from the **Malaria Atlas Dataset** The application generates sub-national-level summary statistics for a range of malaria indicators. The aggregated sub-national-level statistics enable the interpretation of disaggregated, high-spatial resolution trends (5 km x 5 km), at the administrative level.
+**Malaria Data Integration Visualization: MDIV** is a **Shiny** interactive web application that allows users to generate summary statistics and visualise surfaces using data and repository from **Open Access DataMalaria Atlas Dataset** The application generates sub-national-level summary statistics for a range of malaria indicators. The aggregated sub-national-level statistics enable the interpretation of disaggregated, high-spatial resolution trends (5 km x 5 km), at the administrative level.
 
-The application allows user interaction and creates interactive visualizations such as maps displaying mean values for each district selected by the user, and interactive tables ranking values. Users may select one country to analyse, all available districts within that country and up to four rasters for summary statistics generation and surface visualisation.
+This application allows user interaction and creates interactive visualizations such as maps displaying mean values for each district selected by the user, and interactive tables ranking values. Users may select one country to analyse, all available districts within that country and up to four rasters for summary statistics generation and surface visualisation.
 
 ###  Structure
 
@@ -20,19 +20,17 @@ When the "Generate Report" button is clicked, the application retrives summary s
 **Download Report Button**
 To download the report generated and displayed in the "Output Report" tab, users can press this button to select a folder within their computer in which to download the report
 
-### Dependencies
-Data visualization currently available
+### Definitions and Metrics
 -----------------------------------------
-Geo-located point data	
-Malaria parasite rate (PR; for P. falciparum and P. vivax)	
-Administrative boundary shapefiles	Available now	
-Predicted malaria infection risk, prevalence, and associated illness
-Predicted prevalence of malaria-relevant blood disorders
-Predicted mosquito vector distribution and relative abundance	
-Intervention Coverage (ITNs; IRS; ACT)	Available now
-Global travel time to cities	Available now
 
-**This PMI-visualization is a referenced version of**MaDD** developed using **R** and **Shiny**
+**Malaria incidence (Falciparum)**: mean estimates  Modelled incidence of Plasmodium falciparum malaria cases per 1000 persons per annum.
+**Malaria in children (Falciparum)**: mean estimates of a modelled proportion of children aged 2-10 years  with the Plasmodium falciparum parasite. 
+**Insecticide Treated Net distribution**: mean estimates modelled percentage of the population sleeping under an ITN the night before.
+**Travel time to the nearest city**:a  model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and elevation), and national borders. Roads are the primary driver of accessibility globally. The roads dataset was created by merging Open Street Map (OSM) data with a distance-to-roads product derived from the Google roads database; these datasets were extracted in November 2016 and March 2016, respectively.
+
+**The advantage of the MAP modelis that**: 
+  (1). It evaluates temporal changes in Malaria diseases burden  
+  (2). Utilize the effect of all interventions on the population in combination with temporal changes.**
 
 
 
