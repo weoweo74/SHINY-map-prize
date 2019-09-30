@@ -1,8 +1,10 @@
 ###  Purpose
 
-**Malaria Data Integration Visualization: MDIV** is a **Shiny** interactive web application that allows users to generate summary statistics and visualise surfaces using data and repository from **Open Access DataMalaria Atlas Dataset** The application generates sub-national-level summary statistics for a range of malaria indicators. The aggregated sub-national-level statistics enable the interpretation of disaggregated, high-spatial resolution trends (5 km x 5 km), at the administrative level.
+**Modeled Sub-national Malaria Data Comparison Tool** is a **Shiny** web application that allows users to generate summary statistics and visualize surfaces from the **Malaria Atlas Project** without the need to interact with the R coding language. The application generates sub-national level summary statistics for a range of malaria indicators/malariometric data, as available by MAP. The aggregated subnational level statistics enable the interpretation of disaggregated, high-spatial resolution trends (5 km x 5 km), at the administrative level 1.
 
-This application allows user interaction and creates interactive visualizations such as maps displaying mean values for each district selected by the user, and interactive tables ranking values. Users may select one country to analyse, all available districts within that country and up to four rasters for summary statistics generation and surface visualisation.
+The application allows user interaction and creates interactive visualizations such as maps displaying mean values for each sub-national level selected by the user, and interactive tables ranking values. Users may select one country to analyze, all available administrative level 1 within that country and up to four rasters for summary statistics generation and surface visualization.
+
+Additionally, the application allows users to download a formatted **R Markdown** file for the generated statistics, providing easily digestible summaries of the data.
 
 ###  Structure
 
@@ -15,23 +17,31 @@ The 'Application' page is comprised of four main sections:
 
 **Generate Report Button**
 
-When the "Generate Report" button is clicked, the application retrives summary statistics and raster layer visualisations for the selected input and renders them in the third output tab on the right-hand side of the application ("Output Report").
+When the "Generate Report" button is clicked, the application retrieves summary statistics and raster layer visualisations for the selected input and renders them in the third output tab on the right-hand side of the application ("Output Report").
 
 **Download Report Button**
 To download the report generated and displayed in the "Output Report" tab, users can press this button to select a folder within their computer in which to download the report
 
-### Definitions and Metrics
+### Data Sources and Definitions
 -----------------------------------------
-- **Malaria incidence (Falciparum)**: mean estimates  Modelled incidence of Plasmodium falciparum malaria cases per 1000 persons per annum.
 
-- **Malaria in children (Falciparum)**: mean estimates of a modelled proportion of children aged 2-10 years with the Plasmodium falciparum  parasite. 
+All data comes from the Malaria Atlas Project (MAP) https://map.ox.ac.uk/data-directory/
 
-- **Insecticide Treated Net distribution**: mean estimates modelled percentage of the population sleeping under an ITN the night
-before.
 
-- **Travel time to the nearest city**: model travel time to the nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions and national borders.
+Metrics    | Definitions      | Link to Data Source/Information
+------------------------------| ------------------------------------------------------------------------------------------- | ------------------------------------------:
+1. Malaria in children (Falciparum)    | Modelled proportion of children aged 2-10 with the Plasmodium falciparum parasite| https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4820050/ 
+   
+2. Malaria incidence (Falciparum)   | Modelled proportion of the population with the Plasmodium falciparum parasite  | https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4820050/ 
+    
+3. Insecticide Treated Net distribution |  Modelled percentage of the population sleeping under an ITN the night before| https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4820050/ 
 
- 
+4. Travel time to nearest city   | Data inputs used to model travel time to nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and                          elevation), and national borders. Roads are the primary driver of accessibility globally. The roads dataset was created by merging Open Street Map (OSM) data with a distance-to-roads product derived from the Google roads database; these datasets were extracted in November 2016 and March 2016, respectively| https://map.ox.ac.uk/accessibility_to_cities_news/
+https://www.udparty.com/php/upload/20190228/15513401439a79d707ee0350b6.pdf
+       
 ### References
 
 - Andras Sali (2017). shinycssloaders: Add CSS Loading Animations to 'shiny' Outputs. R package version 0.2.0. https://CRAN.R-project.org/package=shinycssloaders
