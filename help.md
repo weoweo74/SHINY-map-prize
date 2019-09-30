@@ -28,18 +28,18 @@ To download the report generated and displayed in the "Output Report" tab, users
 All data comes from the Malaria Atlas Project (MAP) https://map.ox.ac.uk/data-directory/
 
 
-Metrics    | Definitions      | Link to Data Source/Information
-------------------------------| ------------------------------------------------------------------------------------------- | ------------------------------------------:
+Metrics                       | Definitions                                                                   | Link to Data Source/Information
+---------------------------------------|: ------------------------------------------------------------------------------- |: -----------------------------:|
 1. Malaria in children (Falciparum)    | Modelled proportion of children aged 2-10 with the Plasmodium falciparum parasite| https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4820050/ 
    
-2. Malaria incidence (Falciparum)   | Modelled proportion of the population with the Plasmodium falciparum parasite  | https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
+2. Malaria incidence (Falciparum)      | Modelled proportion of the population with the Plasmodium falciparum parasite    | https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4820050/ 
     
-3. Insecticide Treated Net distribution |  Modelled percentage of the population sleeping under an ITN the night before| https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
+3. Insecticide Treated Net distribution|  Modelled percentage of the population sleeping under an ITN the night before    | https://map.ox.ac.uk/research-project/the-impact-of-malaria-control-on-plasmodium-falciparum-in-africa-2000-2015/
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4820050/ 
 
-4. Travel time to nearest city   | Data inputs used to model travel time to nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and                          elevation), and national borders. Roads are the primary driver of accessibility globally. The roads dataset was created by merging Open Street Map (OSM) data with a distance-to-roads product derived from the Google roads database; these datasets were extracted in November 2016 and March 2016, respectively| https://map.ox.ac.uk/accessibility_to_cities_news/
+4. Travel time to nearest city        | Data inputs used to model travel time to nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and elevation), and national borders. Roads are the primary driver of accessibility globally. The roads dataset was created by merging Open Street Map (OSM) data with a distance-to-roads product derived from the Google roads database; these datasets were extracted in November 2016 and March 2016, respectively                                                      | https://map.ox.ac.uk/accessibility_to_cities_news/
 https://www.udparty.com/php/upload/20190228/15513401439a79d707ee0350b6.pdf
        
 ### References
