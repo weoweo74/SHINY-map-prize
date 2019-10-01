@@ -44,22 +44,29 @@ All data comes from the Malaria Atlas Project (MAP) https://map.ox.ac.uk/data-di
 
 ### Dependencies
 
-Software	
-R	Language and environment for statistical computing and graphics
-R packages	
-shiny	Web Application Framework for R
-RColorBrewer	ColorBrewer palettes
-malariaAtlas	An R interface to open-access malaria data, hosted by the Malaria Atlas Project
-shinydashboard	Shinydashboard
-stringr	stringr: Simple, Consistent Wrappers for Common String Operations
-shinyalert	Display a popup message (modal) in Shiny
-shinyBS	Adds additional Twitter Bootstrap components to Shinyshiny
-shinythemes	Themes for Shinys
-shinycssloaders	Shinycssloaders
-ggplot2	ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics
-raster	Create a RasterLayer object
-sp	A package providing classes and methods for spatial data: points, lines, polygons and grids
-grDevices	The R Graphics Devices and Support for Colours and Fontsshiny
+
+**Modeled Sub-national Malaria Data Comparison Tool** has been developed using **R** and **Shiny** and is dependent on the following software and **R** packages:
+
+
+
+|  |   |
+--- | ----
+**Software**   | 
+R  | Language and environment for statistical computing and graphics
+**R packages** |
+shiny | Web Application Framework for R
+RColorBrewer | ColorBrewer palettes
+malariaAtlas | An R interface to open-access malaria data, hosted by the Malaria Atlas Project
+shinydashboard | shinydashboard
+stringr | stringr: Simple, Consistent Wrappers for Common String Operations
+shinyalert | Display a popup message (modal) in Shiny
+shinyBS | Adds additional Twitter Bootstrap components to Shinyshiny
+shinythemes | Themes for Shinys
+shinycssloaders | shinycssloaders
+ggplot2 | ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics
+raster | Create a RasterLayer object
+sp | A package providing classes and methods for spatial data: points, lines, polygons and grids
+grDevices | The R Graphics Devices and Support for Colours and Fontsshiny
 
 ### References
 
