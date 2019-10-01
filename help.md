@@ -41,6 +41,26 @@ All data comes from the Malaria Atlas Project (MAP) https://map.ox.ac.uk/data-di
 | **4. Travel time to nearest city**          	| Data inputs used to model travel time to nearest city consisted of gridded surfaces that quantify the geographical positions and salient attributes of roads, railways, rivers, water bodies, land cover types, topographical conditions (slope angle and elevation), and national borders. Roads are the primary driver of accessibility globally. The roads dataset was created by merging Open Street Map (OSM) data with a distance-to-roads product derived from the Google roads database; these datasets were extracted in November 2016 and March 2016, respectively. 	| https://map.ox.ac.uk/accessibility_to_cities_news/                                                                	|
 |                                         	|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               	| https://www.udparty.com/php/upload/20190228/15513401439a79d707ee0350b6.pdf                                        	|
 |                                         	|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               	|                                                                                                                   	|       
+
+### Dependencies
+
+Software	
+R	Language and environment for statistical computing and graphics
+R packages	
+shiny	Web Application Framework for R
+RColorBrewer	ColorBrewer palettes
+malariaAtlas	An R interface to open-access malaria data, hosted by the Malaria Atlas Project
+shinydashboard	Shinydashboard
+stringr	stringr: Simple, Consistent Wrappers for Common String Operations
+shinyalert	Display a popup message (modal) in Shiny
+shinyBS	Adds additional Twitter Bootstrap components to Shinyshiny
+shinythemes	Themes for Shinys
+shinycssloaders	Shinycssloaders
+ggplot2	ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics
+raster	Create a RasterLayer object
+sp	A package providing classes and methods for spatial data: points, lines, polygons and grids
+grDevices	The R Graphics Devices and Support for Colours and Fontsshiny
+
 ### References
 
 - Andras Sali (2017). shinycssloaders: Add CSS Loading Animations to 'shiny' Outputs. R package version 0.2.0. https://CRAN.R-project.org/package=shinycssloaders
